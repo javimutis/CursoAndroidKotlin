@@ -1,8 +1,8 @@
 package poo
 
-//class CursoAndroid(nombreCurso:String,relator: Relator = Relator()) {
+class CursoAndroid(nombreCurso:String,relator: Relator = Relator()) {
 
-   /* var nombreCurso= nombreCurso
+    var nombreCurso= nombreCurso
     var listaEstudiantes = mutableListOf<Estudiante>()
 
     constructor() : this ("",Relator())
@@ -39,7 +39,7 @@ package poo
             listaEstudiantes.remove(estudiante)
             println("Estudiante ha sido eliminad@")
         } else {
-            println("No ha sido eliminad@").
+            println("No ha sido eliminad@")
         }
     }
     fun modificarEstudiante(estudiante: Estudiante){
@@ -57,8 +57,9 @@ package poo
             estudiante.edad = edad
             println("Fecha nacimiento: ")
             var fechaNacimiento =readLine().toString()
-            estudiante.fechaNacimiento = fechaNacimiento..
+            estudiante.fechaNacimiento = fechaNacimiento
         }
     }
-*/
 
+
+}
